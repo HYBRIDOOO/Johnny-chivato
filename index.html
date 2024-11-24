@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con GIF y Texto Cambiante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            font-size: 2em;
+            animation: colorChange 3s infinite; /* Animación de cambio de color */
+        }
+
+        /* Definición de la animación */
+        @keyframes colorChange {
+            0% {
+                color: red;
+            }
+            25% {
+                color: orange;
+            }
+            50% {
+                color: yellow;
+            }
+            75% {
+                color: green;
+            }
+            100% {
+                color: blue;
+            }
+        }
+
+        img {
+            width: 50%; /* Ajusta el tamaño del GIF */
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Johnny Chivato</h1>
+    <!-- Puedes colocar tu propio enlace al GIF aquí -->
+    <img src="https://cdn.discordapp.com/attachments/1279557097415114784/1310027065486999562/image.png?ex=6743b947&is=674267c7&hm=4d0c8fa481615a52bd0a34ef2be244ca9aad56920589420f05532a1cab2bf7a5&" alt="GIF divertido">
+</body>
+</html>
